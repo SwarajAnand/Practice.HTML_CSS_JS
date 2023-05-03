@@ -1,0 +1,20 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    /* text-align: center; */
+    /* font: 1.5em sans-serif; */
+}
+.ss>a{
+    display: grid;
+    /* display: inline-flex; */
+    grid-template-columns: 30% 30%;
+    /* grid-column-gap:1rem ; */
+    /* text-transform: capitalize; */
+    text-decoration: none;
+    color: #000;
+}
+
+#as{
+    background-color: burlywood;
+}

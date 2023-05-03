@@ -1,0 +1,32 @@
+.list{ 
+    /* width:100px ; */
+    /* border: 1px solid; */
+    height: 35px;
+    list-style-type: none;
+    background-color: cadetblue;
+    position: sticky;
+    width: 97%;
+    position: fixed;
+    top: 0%;
+}
+.list li > a{
+    /* display:block; */
+    font-size: large;
+     float: right;
+    padding: 5px;
+    /*border: 1px solid;
+     background-color: rgb(245, 243, 241); */
+    text-decoration: none; 
+    color:black;
+    border: 1px solid;
+    margin: 0%;
+    /* position: fixed; */
+
+}
+.list li > a:hover{
+    color: chocolate;
+}
+
+/* .class{
+    position: fixed;
+} */

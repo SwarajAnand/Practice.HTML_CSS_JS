@@ -1,0 +1,33 @@
+.class1{
+    background-color:darkkhaki;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+.class1 ul{
+    list-style-type: none;
+    display: inline-flex;
+} 
+.class1 ul li{
+    width: 200px; 
+    margin: 10px;
+    padding: 15px; 
+    background-color: tomato;
+}
+.class1 ul li a{
+    text-decoration: none;
+    color:white;
+}
+.class3{  
+    display: none;
+}
+.class1 ul li:hover .class3{
+    display: block;
+    position: absolute;
+    background-color: tomato;
+    text-align: center;
+    /* margin-top: 15px; */
+}
+.class1 ul li:hover .class3 ul {
+    display: inline;  
+} 

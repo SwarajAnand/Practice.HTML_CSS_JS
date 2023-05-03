@@ -1,0 +1,63 @@
+
+body{
+    /* border: 1px solid rgb(92, 134, 134); */
+    background-image: url('backgroung.jpg');
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+#div1{
+    /* height: 400px;  */
+    width: 50%;
+    font: bolder;
+    padding: 00px;
+    color: black;
+     font-size: larger;
+    text-align: center;
+    /* margin: ; */
+    border: chocolate;
+    }
+
+p{
+    height: 400px;
+    width: 50%;
+    font-style: normal;
+    padding-left: 50%;
+    color: black;
+    font-size: larger;
+    text-align: center;
+}
+
+h2{
+    font-size: 250px;
+    color: chartreuse;
+
+}
+
+#swaraj{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: azure;
+    color: white;
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    text-align: center;
+    font-style: inherit;
+}
+#srj{
+    height: 100px;
+    width: 100px;
+}
+#H1{
+    padding-left: 45%;
+}
+#pree{
+    font-size: 50px;
+    color: navy;
+}
+#ee{
+   height: 1000px;
+   width: 800px;
+}

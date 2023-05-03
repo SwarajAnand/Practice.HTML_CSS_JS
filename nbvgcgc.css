@@ -1,0 +1,63 @@
+:root {
+    --primary_color_dark_one: #0f171b;
+    --primary_color_dark_two: #053f46;
+    --primary_color_dark_three: #054464;
+    --primary_color_dark_four: #0d82bd;
+    --primary_color_light_one: #767676;
+    --primary_color_light_two: #cdedf6;
+    --primary_color_light_three: #e2dfdf;
+    --primary_color_light_four: #faf2f2;
+    --primary_color_light_five: #fff;
+    --primary_color_error_one: red;
+    --primary_color_error_two: rgba(253,29,22,0.5);
+    --primary_color_success_one: #039e03;
+    --primary_color_success_two: rgba(71,248,55,0.5);
+}
+:root a {
+    text-decoration: none;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.class2{
+    height: 60px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    border-bottom: 1px solid var(--primary_color_dark_one);
+    box-shadow:0 0 5px;
+    background-color: var(--primary_color_light_five);
+}
+.list{ 
+    list-style-type: none;
+    width: 80%;
+    position: fixed;
+    top: 0%;
+}
+.list li > a{
+    float: right;
+    color: var(--primary_color_dark_four);
+    background-color: var(--primary_color_light_five);
+    margin-right: 1.5rem;
+    font-size: 1.3rem;
+
+}
+.careermilaap{
+    list-style-type: none;
+
+}
+.list1 li > a{
+    color: var(--primary_color_dark_one);
+    background-color: var(--primary_color_light_five);
+    font-size: 1.3rem;
+    position: static;
+}
+.list li > a:hover{
+    color: var(--primary_color_dark_one);
+}

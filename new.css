@@ -1,0 +1,27 @@
+.class1 ul{
+    list-style-type: none;
+} 
+.class3{  
+    display: none;
+}
+.class1 ul li:hover .class3{
+    display: block;
+    position: absolute;
+}
+/* .class1 ul li:hover .class3 ul {
+    display: inline;  
+} */
+#text{
+    font-size: 70px;
+    margin-bottom: 300px;
+}
+#dd{
+    height: 400px;
+    width: 500px;
+}
+.class1{
+    /* background-color: black; */
+    width: 430px;
+}
+.class1 ul li:hover .class3 ul p {
+    margin-top: 30px;
